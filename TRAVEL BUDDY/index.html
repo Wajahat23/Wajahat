@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Travel Buddy</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">TravelBuddy</a></div>
+        <ul class="menu">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Packages">Packages</a></li>
+          <li><a href="#about-us-section">About Us</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="Home"> 
+      <h1>Travel Made Easy</h1><br>
+
+      <div id="button">
+      </div>
+    </section>
+    <section id="Packages">
+      <div class="destination-card">
+        <div class="destination-image" style="background-image: url('destnination1.jpg');"></div>
+        <div class="destination-content">
+          <h3>Country Roads</h3>
+          <p>Join and embark with this notalgic journey feeling that you are going to home  <br/>‎ 
+          </p>
+          <a class="book-button"  href="https://wa.link/mn9vit">Book Now</a>
+        </div>
+      </div>
+    
+      <div class="destination-card">
+        <div class="destination-image" style="background-image: url('destination2.jpg');"></div>
+        <div class="destination-content">
+          <h3>high Mountains</h3>
+          <p>Tall mountains and their beauty.<br/>‎ 
+          </p>
+          <a class="book-button"  href="https://wa.link/mn9vit">Book Now</a>
+        </div>
+      </div>
+    
+      <div class="destination-card">
+        <div class="destination-image" style="background-image: url('destination3.jpg');"></div>
+        <div class="destination-content">
+          <h3>City vibe</h3>
+          <p>The most enhanching study at a time.<br/>‎ 
+          </p>
+          <a class="book-button"  href="https://wa.link/mn9vit">Book Now</a>
+        </div>
+      </div>
+    
+      <div class="destination-card">
+        <div class="destination-image" style="background-image: url('destination4.jpg');"></div>
+        <div class="destination-content">
+          <h3>Beach Side</h3>
+          <p>beach side location is perfecrly fine<br/>‎ 
+          </p>
+          <a class="book-button"  href="https://wa.link/mn9vit">Book Now</a>
+        </div>
+      </div>
+    </body>
+    </html>
+  
+  </section>
+    <section id="about-us-section"><div class="about-us-section">
+      <div class="about-us-content">
+        <h2>About Us</h2>
+        <p>Welcome to our travel adventures! We are a team of passionate explorers who love to uncover hidden gems around the world. Our mission is to provide you with unforgettable travel experiences. Whether you're an adventurer seeking thrilling escapades or a leisure traveler looking for relaxation, we've got you covered.</p>
+      </div>
+    </div></section>
+    <section id="Gallery" class="slideshow">
+      <div class="slideshow-container">
+          <div class="slide">
+              <img src="1.jpeg" alt="Image 1">
+              <div class="description">Nature beauty</div>
+          </div>
+          <div class="slide">
+              <img src="2.jpeg" alt="Image 2">
+              <div class="description">The High Mountains</div>
+          </div>
+          <div class="slide">
+              <img src="3.jpeg" alt="Image 3">
+              <div class="description">The Best series of landscape</div>
+          </div>
+      </div>
+      <button class="prev-button" onclick="changeSlide(-1)">Previous</button>
+      <button class="next-button" onclick="changeSlide(1)">Next</button>
+  </section>
+  <script src="script.js"></script>
+    <section id="Contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="external.php" method="POST">
+            <label for="username">name:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">message:</label>
+            <input type="text" id="password" name="password" required>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+    </section>
+   
+  </body>
+</html>
