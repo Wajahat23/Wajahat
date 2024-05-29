@@ -1,0 +1,2 @@
+A6 BC BD 1F   //card number
+2D 3C 45 73   //key_chain_number
